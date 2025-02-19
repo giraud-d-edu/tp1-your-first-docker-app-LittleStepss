@@ -9,8 +9,8 @@ EXPOSE 80
 
 # Le conteneur démarre automatiquement Nginx
 
-#ROM alpine:latest
+FROM alpine:latest
 
-#RUN mkdir /data
+RUN mkdir /data
 
-#WORKDIR /data
+WORKDIR /data
